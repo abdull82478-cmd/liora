@@ -3,82 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIORA | Exklusiver Luxus</title>
+    <title>LIORA | Haute Parfumerie & Luxus</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Elegante Serif-Schriftart laden -->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header / Navigation -->
-    <header class="navbar">
+    <!-- Header & Navigation -->
+    <header>
         <div class="logo">
-            <span class="logo-symbol">◆</span>
+            <span class="symbol">❖</span>
             <h1>LIORA</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Damen</a></li>
-                <li><a href="#">Kinder</a></li>
-                <li><a href="#">Make-up</a></li>
-                <li><a href="#">Parfum</a></li>
-                <li><a href="#">Schmuck</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#products">Kollektion</a></li>
+                <li><a href="#impressum">Impressum</a></li>
             </ul>
         </nav>
-        <div class="header-actions">
-            <span class="lang-switch">DE | AR</span>
-            <a href="#" class="cart-icon">🛒 (<span id="cart-count">0</span>)</a>
-        </div>
     </header>
 
-    <!-- Hero Banner -->
-    <section class="hero">
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
         <div class="hero-content">
-            <h2>Zeitlose Eleganz</h2>
-            <p>Entdecke die neue Kollektion für die Golfstaaten & Europa.</p>
-            <a href="#products" class="btn-gold">Kollektion Entdecken</a>
+            <h2>Eleganz in jedem Tropfen</h2>
+            <p>Entdecken Sie exklusive Düfte & zeitlosen Luxus.</p>
+            <a href="#products" class="btn-gold">Kollektion entdecken</a>
         </div>
     </section>
 
-    <!-- Produkte Bereich -->
-    <section class="products-section" id="products">
-        <h3 class="section-title">Bestseller</h3>
+    <!-- Produkte -->
+    <section id="products" class="products">
+        <h2>Unsere Exklusive Kollektion</h2>
         <div class="product-grid">
             
-            <!-- Produkt 1 -->
+            <!-- Produkt 1 mit deinem Bild -->
             <div class="product-card">
-                <div class="product-image">
-                    <img src="https://via.placeholder.com/400x500/111111/D4AF37?text=Liora+Parfum" alt="Liora Parfum">
-                </div>
-                <h4>Liora Royal Parfum</h4>
-                <p class="price">150,00 €</p>
-                <button class="btn-add-cart" onclick="addToCart()">In den Warenkorb</button>
-            </div>
-
-            <!-- Produkt 2 -->
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="https://via.placeholder.com/400x500/111111/D4AF37?text=Gold+Schmuck" alt="Gold Schmuck">
-                </div>
-                <h4>Goldenes Armband 18K</h4>
-                <p class="price">450,00 €</p>
-                <button class="btn-add-cart" onclick="addToCart()">In den Warenkorb</button>
+                <img src="parfum1.jpg" alt="Liora Luxus Parfum" style="width:100%; height:280px; object-fit:cover; margin-bottom:15px; border-radius:4px;">
+                <h3>Liora Signature</h3>
+                <p>Ein unverwechselbarer Duft aus seltenen Essenzen.</p>
+                <p class="price">180,00 €</p>
+                <button class="btn-buy">In den Warenkorb</button>
             </div>
 
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 LIORA Luxury. Alle Rechte vorbehalten.</p>
-        <div class="footer-links">
-            <a href="#">Impressum</a> | 
-            <a href="#">Datenschutz</a> | 
-            <a href="#">AGB</a> | 
-            <a href="#">Versand</a>
-        </div>
+    <!-- Footer mit Impressum -->
+    <footer id="impressum">
+        <h3>LIORA Haute Parfumerie</h3>
+        <p><strong>Impressum:</strong></p>
+        <p>Liora Luxus GmbH | Musterstraße 1, 1010 Wien</p>
+        <p>E-Mail: kontakt@liora-boutique.com | Tel: +43 1 234567</p>
+        <p style="margin-top:20px; font-size: 0.75rem; color: #888;">&copy; 2026 LIORA. Alle Rechte vorbehalten.</p>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
