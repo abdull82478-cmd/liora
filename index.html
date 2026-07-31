@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIORA | Exklusiver Luxus</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Elegante Serif-Schriftart laden -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-symbol">◆</span>
+            <h1>LIORA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Damen</a></li>
+                <li><a href="#">Kinder</a></li>
+                <li><a href="#">Make-up</a></li>
+                <li><a href="#">Parfum</a></li>
+                <li><a href="#">Schmuck</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <span class="lang-switch">DE | AR</span>
+            <a href="#" class="cart-icon">🛒 (<span id="cart-count">0</span>)</a>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Zeitlose Eleganz</h2>
+            <p>Entdecke die neue Kollektion für die Golfstaaten & Europa.</p>
+            <a href="#products" class="btn-gold">Kollektion Entdecken</a>
+        </div>
+    </section>
+
+    <!-- Produkte Bereich -->
+    <section class="products-section" id="products">
+        <h3 class="section-title">Bestseller</h3>
+        <div class="product-grid">
+            
+            <!-- Produkt 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/400x500/111111/D4AF37?text=Liora+Parfum" alt="Liora Parfum">
+                </div>
+                <h4>Liora Royal Parfum</h4>
+                <p class="price">150,00 €</p>
+                <button class="btn-add-cart" onclick="addToCart()">In den Warenkorb</button>
+            </div>
+
+            <!-- Produkt 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/400x500/111111/D4AF37?text=Gold+Schmuck" alt="Gold Schmuck">
+                </div>
+                <h4>Goldenes Armband 18K</h4>
+                <p class="price">450,00 €</p>
+                <button class="btn-add-cart" onclick="addToCart()">In den Warenkorb</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 LIORA Luxury. Alle Rechte vorbehalten.</p>
+        <div class="footer-links">
+            <a href="#">Impressum</a> | 
+            <a href="#">Datenschutz</a> | 
+            <a href="#">AGB</a> | 
+            <a href="#">Versand</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
